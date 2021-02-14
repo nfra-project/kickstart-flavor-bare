@@ -1,8 +1,10 @@
 #!/bin/bash
 echo $PWD
+echo $(dirname $DOCKERFILE_PATH)/test/:/opt/
 ls -l
-#docker build --build-arg DOCKER_TAG=$DOCKER_TAG -f $DOCKERFILE_PATH -t $IMAGE_NAME .
+
+docker build --build-arg DOCKER_TAG=$DOCKER_TAG -f $DOCKERFILE_PATH -t $IMAGE_NAME .
 
 ## Run Selftest before push
 
-#docker run -t -v test/:/opt/ -e DEV_MODE=1 $IMAGE_NAME test
+docker run -t -v "$(dirname $DOCKERFILE_PATH)/test/:/opt/" -e DEV_MODE=1 $IMAGE_NAME test
