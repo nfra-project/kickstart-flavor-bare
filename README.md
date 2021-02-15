@@ -1,8 +1,8 @@
 
 # kickstart-flavor Bare development container
 
-[![Actions Status](https://github.com/nfra-project/kickstart-flavor-bare/workflows/test/badge.svg)](https://github.com/nfra-project/kickstart-flavor-php/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-bare.svg)](https://github.com/nfra-project/kickstart-flavor-php)
+[![Actions Status](https://github.com/nfra-project/kickstart-flavor-bare/workflows/test/badge.svg)](https://github.com/nfra-project/kickstart-flavor-bare/actions)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-bare.svg)](https://github.com/nfra-project/kickstart-flavor-bare)
 
 see (http://github.com/infracamp/kickstart) for more information.
 
@@ -21,7 +21,6 @@ Document Index:
 | Tag         | OS                            | Branch     | Docs |
 |-------------|-------------------------------|------------|------|
 | 1.0         | Ubuntu 20.04                  | 1.0-stable | [Readme](https://github.com/nfra-project/kickstart-flavor-bare/tree/1.0-stable) |
-| 1.0-min     | Ubuntu 20.04                  | 1.0-stable | |
 | unstable    | Ubuntu 20.04 (master), PHP8   | master     | [Readme](https://github.com/nfra-project/kickstart-flavor-bare/) |
 
 
