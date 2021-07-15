@@ -18,10 +18,10 @@ Document Index:
 
 *Use -min images in Dockerfile and main image in .kick.yml*
 
-| Tag         | OS                            | Branch     | Docs |
-|-------------|-------------------------------|------------|------|
-| 1.0         | Ubuntu 20.04                  | 1.0-stable | [Readme](https://github.com/nfra-project/kickstart-flavor-bare/tree/1.0-stable) |
-| unstable    | Ubuntu 20.04 (master), PHP8   | master     | [Readme](https://github.com/nfra-project/kickstart-flavor-bare/) |
+| Tag         | OS                            | Container Kit | Branch     | Docs |
+|-------------|-------------------------------|---------------|------------|------|
+| 1.0         | Ubuntu 20.04 (LTS)            | 1.2           | 1.0-stable | [Readme](https://github.com/nfra-project/kickstart-flavor-bare/tree/1.0-stable) |
+| unstable    | Ubuntu 20.04 (LTS)            | unstable      | main     | [Readme](https://github.com/nfra-project/kickstart-flavor-bare/) |
 
 
 ## Default configuration
